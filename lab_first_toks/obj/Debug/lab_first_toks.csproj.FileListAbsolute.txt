@@ -1,0 +1,15 @@
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\bin\Debug\lab_first_toks.exe.config
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\bin\Debug\lab_first_toks.exe
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\bin\Debug\lab_first_toks.pdb
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\obj\Debug\lab_first_toks.csprojAssemblyReference.cache
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\obj\Debug\MainWindow.g.cs
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\obj\Debug\App.g.cs
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\obj\Debug\lab_first_toks_MarkupCompile.cache
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\obj\Debug\lab_first_toks_MarkupCompile.lref
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\obj\Debug\MainWindow.baml
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\obj\Debug\lab_first_toks.g.resources
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\obj\Debug\lab_first_toks.Properties.Resources.resources
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\obj\Debug\lab_first_toks.csproj.GenerateResource.cache
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\obj\Debug\lab_first_toks.csproj.CoreCompileInputs.cache
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\obj\Debug\lab_first_toks.exe
+C:\Users\dota2\source\repos\lab_first_toks\lab_first_toks\obj\Debug\lab_first_toks.pdb
