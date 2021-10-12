@@ -44,11 +44,14 @@ namespace lab_first_toks
                 {
                     debug.Text += String.Format("No free ports\n");
                 }
-                else if(!serialport.IsOpen)
+                else if (SelectedPort.Length == 0)
+                {
+                    debug.Text += String.Format("You have not selected a port\n");
+                }
+                else if (!serialport.IsOpen)
                 {
                     debug.Text += String.Format("Port is busy \n");
                 }
-                else debug.Text += String.Format("You have not selected a port\n");
             }
         }
 
@@ -57,6 +60,7 @@ namespace lab_first_toks
             string output = serialport.ReadExisting();
             this.Dispatcher.Invoke((Action)(() =>
             {
+                OutputText.Clear();
                 OutputText.Text += output;
                 OutputText.Text += "\n";
             }));
@@ -69,7 +73,6 @@ namespace lab_first_toks
                 if (e.Key == Key.Return)
                 {
                     serialport.Write(InputText.Text);
-                    InputText.Clear();
                 }
             }
             catch
@@ -87,6 +90,7 @@ namespace lab_first_toks
                 Com.Text = port;
                 Com_Choice.Items.Add(Com);
             }
+            debug.Text += String.Format("Port's searching \n");
         }
     }
 }

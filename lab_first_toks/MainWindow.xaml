@@ -18,13 +18,9 @@
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <Label Grid.Column="0" Content="Input" Height="25" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-                <ScrollViewer VerticalScrollBarVisibility="Auto">
-                    <TextBox x:Name="InputText" KeyDown="InputText_KeyDown" TextWrapping="Wrap" Grid.Column="0" Margin="30" IsReadOnly="False"/>
-                </ScrollViewer>
+                    <TextBox x:Name="InputText" VerticalScrollBarVisibility="Auto" KeyDown="InputText_KeyDown" TextWrapping="Wrap" Grid.Column="0" Margin="30" IsReadOnly="False"/>
                 <Label Grid.Column="1" Content="Output" Height="25" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-                <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="1">
-                    <TextBox x:Name="OutputText" TextWrapping="Wrap" Grid.Column="1" Margin="30" IsReadOnly="True"/>
-                </ScrollViewer>
+                    <TextBox x:Name="OutputText" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Grid.Column="1" Margin="30" IsReadOnly="True"/>
             </Grid>
         </Border>
         <Border Grid.Row="1">
@@ -39,9 +35,7 @@
                     <Button Content="Find COM-port's" x:Name="Find_COM" Click="Find_COM_Click" Width="120" Height="30" Margin="5"/>
                 </StackPanel>
                 <Label Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Center" Height="25" Content="Debug"/>
-                <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="1">
-                    <TextBox x:Name="debug" TextWrapping="Wrap" Grid.Column="1" Margin="30" IsReadOnly="True"/>
-                </ScrollViewer>
+                    <TextBox x:Name="debug"  VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Grid.Column="1" Margin="30" IsReadOnly="True"/>
             </Grid>
         </Border>
     </Grid>
