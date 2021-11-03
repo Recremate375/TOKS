@@ -1,0 +1,15 @@
+D:\univer\TOKS\TOKS\TOKS\bin\Debug\TOKS.exe.config
+D:\univer\TOKS\TOKS\TOKS\bin\Debug\TOKS.exe
+D:\univer\TOKS\TOKS\TOKS\bin\Debug\TOKS.pdb
+D:\univer\TOKS\TOKS\TOKS\obj\Debug\TOKS.csprojAssemblyReference.cache
+D:\univer\TOKS\TOKS\TOKS\obj\Debug\MainWindow.g.cs
+D:\univer\TOKS\TOKS\TOKS\obj\Debug\App.g.cs
+D:\univer\TOKS\TOKS\TOKS\obj\Debug\TOKS_MarkupCompile.cache
+D:\univer\TOKS\TOKS\TOKS\obj\Debug\TOKS_MarkupCompile.lref
+D:\univer\TOKS\TOKS\TOKS\obj\Debug\MainWindow.baml
+D:\univer\TOKS\TOKS\TOKS\obj\Debug\TOKS.g.resources
+D:\univer\TOKS\TOKS\TOKS\obj\Debug\TOKS.Properties.Resources.resources
+D:\univer\TOKS\TOKS\TOKS\obj\Debug\TOKS.csproj.GenerateResource.cache
+D:\univer\TOKS\TOKS\TOKS\obj\Debug\TOKS.csproj.CoreCompileInputs.cache
+D:\univer\TOKS\TOKS\TOKS\obj\Debug\TOKS.exe
+D:\univer\TOKS\TOKS\TOKS\obj\Debug\TOKS.pdb

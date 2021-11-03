@@ -25,17 +25,21 @@
         </Border>
         <Border Grid.Row="1">
             <Grid Background="LightBlue">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="0.3*"></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="17*"></ColumnDefinition>
+                    <ColumnDefinition Width="17*"></ColumnDefinition>
+                    <ColumnDefinition Width="65*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <StackPanel  Grid.Column="0">
-                    <Label Height="25" Content="Control" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-                    <ComboBox x:Name="Com_Choice" DropDownClosed="Com_Choice_DropDownClosed" Width="120" Height="30" Margin="5"/>
-                    <Button Content="Find COM-port's" x:Name="Find_COM" Click="Find_COM_Click" Width="120" Height="30" Margin="5"/>
-                </StackPanel>
-                <Label Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Center" Height="25" Content="Debug"/>
-                <TextBox x:Name="debug"  VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Grid.Column="1" Margin="30" IsReadOnly="True"/>
+                <Label Grid.Column="0" Grid.ColumnSpan="2" Height="25" Content="Control" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <Button Grid.Column="1" Content="Find COM-port's" x:Name="Find_COM" Click="Find_COM_Click" Width="100" Height="30" Margin="5"/>
+                <ComboBox Grid.Column="0" x:Name="Com_Choice" DropDownClosed="Com_Choice_DropDownClosed" Height="30" Width="100" Margin="5"/>
+                <TextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="Coder" Margin="15,10,15,10" IsReadOnly="True" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"/>
+                <Label Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" VerticalAlignment="Top" HorizontalAlignment="Center" Height="25" Content="Debug" Margin="5" Width="46"/>
+                <TextBox Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" x:Name="debug"  VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Margin="30" IsReadOnly="True"/>
             </Grid>
         </Border>
     </Grid>
